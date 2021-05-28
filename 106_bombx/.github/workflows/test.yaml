@@ -1,0 +1,17 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - dev
+      - master
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-20.04
+    name: unit-test
+    container: epitechcontent/epitest-docker
+    steps:
+    - uses: actions/checkout@v1
+    - id: bash
+      run: "./tests/auto_test.sh"
