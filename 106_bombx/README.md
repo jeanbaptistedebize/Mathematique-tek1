@@ -1,8 +1,3 @@
----
-noteId: "eb53d940b4a011ebaea7210635332d60"
-tags: []
-
----
 # 102architect
 
 ## Usage
